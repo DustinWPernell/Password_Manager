@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC2036A72082EF80008C465B /* AccountEditController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2036A62082EF80008C465B /* AccountEditController.swift */; };
+		AC2036A92082F8CB008C465B /* SecQuestEditController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2036A82082F8CB008C465B /* SecQuestEditController.swift */; };
+		AC2036AD20841F54008C465B /* HistoryDetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2036AC20841F54008C465B /* HistoryDetailsController.swift */; };
+		AC82A229207C252A007303C9 /* Keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC82A228207C252A007303C9 /* Keys.swift */; };
+		ACC4687320851A51003B8676 /* SecQuestListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC4687220851A51003B8676 /* SecQuestListController.swift */; };
+		ACC468752086A182003B8676 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC468742086A181003B8676 /* MainViewController.swift */; };
+		ACC56ECA207BF35300D7831C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC56EC9207BF35300D7831C /* AppDelegate.swift */; };
+		ACC56ECF207BF35300D7831C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACC56ECD207BF35300D7831C /* Main.storyboard */; };
+		ACC56ED2207BF35300D7831C /* Password_Manager.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ACC56ED0207BF35300D7831C /* Password_Manager.xcdatamodeld */; };
+		ACC56ED4207BF35400D7831C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACC56ED3207BF35400D7831C /* Assets.xcassets */; };
+		ACC56ED7207BF35400D7831C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACC56ED5207BF35400D7831C /* LaunchScreen.storyboard */; };
+		ACC56EDF207BF61400D7831C /* AccountListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC56EDE207BF61400D7831C /* AccountListController.swift */; };
+		ACC56EE1207C019E00D7831C /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC56EE0207C019E00D7831C /* AccountViewController.swift */; };
+		ACC56EE5207C063B00D7831C /* SecQuestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC56EE4207C063B00D7831C /* SecQuestViewController.swift */; };
+		ACC56EE7207C0D4C00D7831C /* AccountDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC56EE6207C0D4C00D7831C /* AccountDetails.swift */; };
+		ACC56EE9207C0DF900D7831C /* SecQuestDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC56EE8207C0DF900D7831C /* SecQuestDetails.swift */; };
+		ACC56EEB207C0F0300D7831C /* HistoryDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC56EEA207C0F0300D7831C /* HistoryDetails.swift */; };
+		ACC56EED207C12CC00D7831C /* HistoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC56EEC207C12CC00D7831C /* HistoryController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AC2036A62082EF80008C465B /* AccountEditController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountEditController.swift; sourceTree = "<group>"; };
+		AC2036A82082F8CB008C465B /* SecQuestEditController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecQuestEditController.swift; sourceTree = "<group>"; };
+		AC2036AC20841F54008C465B /* HistoryDetailsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryDetailsController.swift; sourceTree = "<group>"; };
+		AC82A228207C252A007303C9 /* Keys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keys.swift; sourceTree = "<group>"; };
+		ACC4687220851A51003B8676 /* SecQuestListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecQuestListController.swift; sourceTree = "<group>"; };
+		ACC468742086A181003B8676 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		ACC56EC6207BF35300D7831C /* Password Manager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Password Manager.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACC56EC9207BF35300D7831C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ACC56ECE207BF35300D7831C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ACC56ED1207BF35300D7831C /* Password_Manager.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Password_Manager.xcdatamodel; sourceTree = "<group>"; };
+		ACC56ED3207BF35400D7831C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACC56ED6207BF35400D7831C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ACC56ED8207BF35400D7831C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACC56EDE207BF61400D7831C /* AccountListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountListController.swift; sourceTree = "<group>"; };
+		ACC56EE0207C019E00D7831C /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		ACC56EE4207C063B00D7831C /* SecQuestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecQuestViewController.swift; sourceTree = "<group>"; };
+		ACC56EE6207C0D4C00D7831C /* AccountDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountDetails.swift; sourceTree = "<group>"; };
+		ACC56EE8207C0DF900D7831C /* SecQuestDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecQuestDetails.swift; sourceTree = "<group>"; };
+		ACC56EEA207C0F0300D7831C /* HistoryDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryDetails.swift; sourceTree = "<group>"; };
+		ACC56EEC207C12CC00D7831C /* HistoryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACC56EC3207BF35300D7831C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACC468782086A3C1003B8676 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				ACC56EDE207BF61400D7831C /* AccountListController.swift */,
+				ACC56EE0207C019E00D7831C /* AccountViewController.swift */,
+				AC2036A62082EF80008C465B /* AccountEditController.swift */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		ACC468792086A3D2003B8676 /* SecQuest */ = {
+			isa = PBXGroup;
+			children = (
+				ACC4687220851A51003B8676 /* SecQuestListController.swift */,
+				ACC56EE4207C063B00D7831C /* SecQuestViewController.swift */,
+				AC2036A82082F8CB008C465B /* SecQuestEditController.swift */,
+			);
+			path = SecQuest;
+			sourceTree = "<group>";
+		};
+		ACC4687A2086A3E1003B8676 /* History */ = {
+			isa = PBXGroup;
+			children = (
+				ACC56EEC207C12CC00D7831C /* HistoryController.swift */,
+				AC2036AC20841F54008C465B /* HistoryDetailsController.swift */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		ACC4687B2086A3EF003B8676 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				ACC56EE6207C0D4C00D7831C /* AccountDetails.swift */,
+				ACC56EE8207C0DF900D7831C /* SecQuestDetails.swift */,
+				ACC56EEA207C0F0300D7831C /* HistoryDetails.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		ACC56EBD207BF35300D7831C = {
+			isa = PBXGroup;
+			children = (
+				ACC56EC8207BF35300D7831C /* Password Manager */,
+				ACC56EC7207BF35300D7831C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACC56EC7207BF35300D7831C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACC56EC6207BF35300D7831C /* Password Manager.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACC56EC8207BF35300D7831C /* Password Manager */ = {
+			isa = PBXGroup;
+			children = (
+				ACC56EC9207BF35300D7831C /* AppDelegate.swift */,
+				ACC56ECD207BF35300D7831C /* Main.storyboard */,
+				ACC56ED3207BF35400D7831C /* Assets.xcassets */,
+				ACC56ED5207BF35400D7831C /* LaunchScreen.storyboard */,
+				ACC56ED8207BF35400D7831C /* Info.plist */,
+				ACC56ED0207BF35300D7831C /* Password_Manager.xcdatamodeld */,
+				ACC468782086A3C1003B8676 /* Account */,
+				ACC4687B2086A3EF003B8676 /* Entity */,
+				ACC4687A2086A3E1003B8676 /* History */,
+				ACC468792086A3D2003B8676 /* SecQuest */,
+				ACC468742086A181003B8676 /* MainViewController.swift */,
+				AC82A228207C252A007303C9 /* Keys.swift */,
+			);
+			path = "Password Manager";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACC56EC5207BF35300D7831C /* Password Manager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACC56EDB207BF35400D7831C /* Build configuration list for PBXNativeTarget "Password Manager" */;
+			buildPhases = (
+				ACC56EC2207BF35300D7831C /* Sources */,
+				ACC56EC3207BF35300D7831C /* Frameworks */,
+				ACC56EC4207BF35300D7831C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Password Manager";
+			productName = "Password Manager";
+			productReference = ACC56EC6207BF35300D7831C /* Password Manager.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACC56EBE207BF35300D7831C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = WakeTech;
+				TargetAttributes = {
+					ACC56EC5207BF35300D7831C = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = ACC56EC1207BF35300D7831C /* Build configuration list for PBXProject "Password Manager" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACC56EBD207BF35300D7831C;
+			productRefGroup = ACC56EC7207BF35300D7831C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACC56EC5207BF35300D7831C /* Password Manager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACC56EC4207BF35300D7831C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACC56ED7207BF35400D7831C /* LaunchScreen.storyboard in Resources */,
+				ACC56ED4207BF35400D7831C /* Assets.xcassets in Resources */,
+				ACC56ECF207BF35300D7831C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACC56EC2207BF35300D7831C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACC56ECA207BF35300D7831C /* AppDelegate.swift in Sources */,
+				ACC56ED2207BF35300D7831C /* Password_Manager.xcdatamodeld in Sources */,
+				ACC4687320851A51003B8676 /* SecQuestListController.swift in Sources */,
+				AC2036A92082F8CB008C465B /* SecQuestEditController.swift in Sources */,
+				ACC56EE7207C0D4C00D7831C /* AccountDetails.swift in Sources */,
+				ACC56EE9207C0DF900D7831C /* SecQuestDetails.swift in Sources */,
+				AC2036A72082EF80008C465B /* AccountEditController.swift in Sources */,
+				ACC56EED207C12CC00D7831C /* HistoryController.swift in Sources */,
+				ACC56EE1207C019E00D7831C /* AccountViewController.swift in Sources */,
+				ACC468752086A182003B8676 /* MainViewController.swift in Sources */,
+				ACC56EE5207C063B00D7831C /* SecQuestViewController.swift in Sources */,
+				ACC56EDF207BF61400D7831C /* AccountListController.swift in Sources */,
+				ACC56EEB207C0F0300D7831C /* HistoryDetails.swift in Sources */,
+				AC2036AD20841F54008C465B /* HistoryDetailsController.swift in Sources */,
+				AC82A229207C252A007303C9 /* Keys.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ACC56ECD207BF35300D7831C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACC56ECE207BF35300D7831C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ACC56ED5207BF35400D7831C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACC56ED6207BF35400D7831C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACC56ED9207BF35400D7831C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ACC56EDA207BF35400D7831C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACC56EDC207BF35400D7831C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E725FBY7XX;
+				INFOPLIST_FILE = "Password Manager/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "WakeTech.Password-Manager";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ACC56EDD207BF35400D7831C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E725FBY7XX;
+				INFOPLIST_FILE = "Password Manager/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "WakeTech.Password-Manager";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACC56EC1207BF35300D7831C /* Build configuration list for PBXProject "Password Manager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACC56ED9207BF35400D7831C /* Debug */,
+				ACC56EDA207BF35400D7831C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACC56EDB207BF35400D7831C /* Build configuration list for PBXNativeTarget "Password Manager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACC56EDC207BF35400D7831C /* Debug */,
+				ACC56EDD207BF35400D7831C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		ACC56ED0207BF35300D7831C /* Password_Manager.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				ACC56ED1207BF35300D7831C /* Password_Manager.xcdatamodel */,
+			);
+			currentVersion = ACC56ED1207BF35300D7831C /* Password_Manager.xcdatamodel */;
+			path = Password_Manager.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = ACC56EBE207BF35300D7831C /* Project object */;
+}
