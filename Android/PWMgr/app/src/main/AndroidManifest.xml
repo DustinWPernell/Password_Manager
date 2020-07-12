@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dustinpernel.pwmgr">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".PWMgr_Main">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity   android:name=".DecryptionClass"
+                    android:parentActivityName=".PWMgr_Main">
+        </activity>
+
+        <activity   android:name=".NewFile"
+                    android:parentActivityName=".FileNotFound">
+        </activity>
+
+        <activity   android:name=".FileBrowser"
+                    android:parentActivityName=".FileNotFound">
+        </activity>
+x
+        <activity   android:name=".FileNotFound"
+                    android:parentActivityName=".PWMgr_Main">
+        </activity>
+
+        <activity   android:name=".SavedSiteList"
+                    android:parentActivityName=".PWMgr_Main">
+        </activity>
+
+        <activity android:name=".SecQuest">
+        </activity>
+
+        <activity android:name=".SecQuestEdit">
+        </activity>
+
+        <activity android:name=".Site">
+        </activity>
+
+        <activity android:name=".SiteEdit">
+        </activity>
+    </application>
+
+</manifest>

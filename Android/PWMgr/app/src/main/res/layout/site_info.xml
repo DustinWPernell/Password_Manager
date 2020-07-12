@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/SiteHeaderSI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/PWHeaderSI"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:text="Site:"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/SiteViewSI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_toEndOf="@+id/SiteHeaderSI"
+        android:text="Not Set"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/PWHeaderSI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password:"
+        android:textSize="25dp"
+        android:layout_below="@+id/SiteHeaderSI"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="30dp" />
+
+    <TextView
+        android:id="@+id/PWViewSI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/PWHeaderSI"
+        android:layout_alignBottom="@+id/PWHeaderSI"
+        android:layout_marginStart="10dp"
+        android:layout_toEndOf="@+id/PWHeaderSI"
+        android:text="Not Set"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/DateViewSI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/DateHeaderSI"
+        android:layout_alignBottom="@+id/DateHeaderSI"
+        android:layout_marginStart="10dp"
+        android:layout_toEndOf="@+id/DateHeaderSI"
+        android:text="Not Set"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/DateHeaderSI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date:"
+        android:textSize="25dp"
+        android:layout_below="@+id/PWHeaderSI"
+        android:layout_alignEnd="@+id/PWHeaderSI"
+        android:layout_marginTop="30dp" />
+
+    <Button
+        android:id="@+id/ReturnButtonSI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Return"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/EditButtonSI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:text="Edit" />
+
+    <Button
+        android:id="@+id/DeleteButtonSI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Delete" />
+
+    <TextView
+        android:id="@+id/SecQuestHeaderSI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/DateViewSI"
+        android:layout_marginTop="14dp"
+        android:text="Securit Question:"
+        android:textSize="25dp" />
+
+    <ListView
+        android:id="@+id/SecQuestListSI"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/ReturnButtonSI"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/SecQuestHeaderSI"
+        android:layout_marginTop="13dp" />
+
+
+</RelativeLayout>

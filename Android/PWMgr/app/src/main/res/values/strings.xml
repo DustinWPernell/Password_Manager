@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Password Manager</string>
+    <array name="numQuest">
+        <item>Number of security questions - none</item>
+        <item>Number of security questions - 1</item>
+        <item>Number of security questions - 2</item>
+        <item>Number of security questions - 3</item>
+        <item>Number of security questions - 4</item>
+        <item>Number of security questions - 5</item>
+    </array>
+
+</resources>

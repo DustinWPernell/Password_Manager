@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/TitleHeaderNF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="26dp"
+        android:text="Title:" />
+
+    <EditText
+        android:id="@+id/TitleInputNF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/TitleHeaderNF"
+        android:layout_marginStart="19dp"
+        android:layout_toEndOf="@+id/TitleHeaderNF"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="PWFile.txt" />
+
+    <TextView
+        android:id="@+id/PWHeader1NF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/TitleHeaderNF"
+        android:layout_below="@+id/TitleInputNF"
+        android:layout_marginTop="23dp"
+        android:text="Password:" />
+
+    <EditText
+        android:id="@+id/PWinput1NF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/PWHeader1NF"
+        android:layout_marginStart="27dp"
+        android:layout_toEndOf="@+id/PWHeader1NF"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/PWHeader2NF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/PWHeader1NF"
+        android:layout_below="@+id/PWinput1NF"
+        android:layout_marginTop="35dp"
+        android:text="Renter Password:" />
+
+    <EditText
+        android:id="@+id/PWInput2NF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/PWHeader2NF"
+        android:layout_marginStart="15dp"
+        android:layout_toEndOf="@+id/PWHeader2NF"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/FilePathHeaderNF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter file path or use default:"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/PWHeader2NF" />
+
+    <EditText
+        android:id="@+id/FilePathInputNF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/FilePathHeaderNF"
+        android:layout_below="@+id/FilePathHeaderNF"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="FilePath" />
+
+    <Button
+        android:id="@+id/CancelButtonNF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:text="Cancel" />
+
+    <Button
+        android:id="@+id/SaveButtonNF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/CancelButtonNF"
+        android:text="Save" />
+</RelativeLayout>

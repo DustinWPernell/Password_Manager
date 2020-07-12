@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/SecQuestHeaderSQI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Security Question"
+        android:textSize="30dp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/SecQuestSQI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Security Question"
+        android:textAlignment="center"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/SecAnswHeaderSQI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Answer:"
+        android:textAlignment="center"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/AnswerSQI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Answer"
+        android:textAlignment="center"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/ReturnButtonSQI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Return" />
+
+    <Button
+        android:id="@+id/EditButtonSQI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Edit" />
+
+    <Button
+        android:id="@+id/DeleteButtonSQI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete" />
+
+</LinearLayout>
