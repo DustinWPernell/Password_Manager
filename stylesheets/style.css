@@ -1,0 +1,42 @@
+.body
+{
+	background-color: rgb(60, 60, 60);
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-top: 10px;
+}
+
+.text{
+	color: white;
+}
+
+.plainText{
+	color: white;
+	font-size: medium;
+	margin-left: 15px;
+	
+}
+
+.altText{
+	color: darkgrey;
+}
+
+.header{
+	font-size: x-large;
+	font-weight: bold;
+}
+
+.subHeader{
+	font-size: large;
+	font-weight: bold;
+	text-align: left;
+}
+
+.divider{
+	font-size: small;
+	color: grey;
+}
+
+.license{
+	font-size: small;
+}
