@@ -39,4 +39,27 @@
 
 .license{
 	font-size: small;
+	margin-left: 15px;
+}
+
+.image150{
+	width: 150px;
+}
+
+.image300{
+	width: 300px;
+}
+
+.stepCell{
+	vertical-align: top;
+}
+
+.leftCell{
+	width: 580px;
+	padding-right: 20px;
+	vertical-align: top;
+}
+
+.rightCell{
+	text-align: right;
 }
