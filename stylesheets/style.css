@@ -3,7 +3,7 @@
 	background-color: rgb(60, 60, 60);
 	margin-left: 15%;
 	margin-right: 15%;
-	margin-top: 10px;
+	margin-top: 75px;
 }
 
 .text{
@@ -62,4 +62,13 @@
 
 .rightCell{
 	text-align: right;
+}
+
+.topBtn{
+	position: fixed;
+    bottom: 10px;
+    float: right;
+    right: 10%;
+    font-size: small;
+    background-color: rgb(100,100,100);
 }
